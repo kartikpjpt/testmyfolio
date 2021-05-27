@@ -1,0 +1,84 @@
+.container__navbar {
+  background-color: #e7dfdd;
+  height: 70px;
+  /* display type */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;;
+}
+
+.container__navbar .my-name {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.4em;
+  font-weight: 200;
+  color:rgb(14, 11, 22);
+  margin-left: 90px;
+}
+.container__navbar .my-name:hover{
+    cursor: pointer;
+    color:#F4B400;
+    animation: shine .4s ease-in infinite alternate-reverse;
+    
+}
+.container__navbar .nav-items a {
+  text-decoration: none;
+  padding: 0px 25px;
+  text-transform: uppercase;
+  color:#0E0B16;
+  font-size: 18px;
+}
+.container__navbar .nav-items a:hover{
+    opacity: 0.8;
+    color:rgb(15,157,88);    
+    text-decoration: underline;
+}
+
+.color-lens{
+    font-size: 10px;
+}
+@keyframes shine {
+    0% {
+        opacity:1;
+        transform: scale(0.8);
+        transform: translate(30px);
+    }
+    100% {
+        opacity: 0.8;
+        color:rgba(219,68,55, 0.87);
+        
+    }
+}
+@media only screen and (max-width:980px){
+    .container__navbar .my-name {
+        font-size: 16px;
+        letter-spacing:0.35rem;
+    }
+    .container__navbar .nav-items a{
+        padding: 0 20px;
+        font-size:16px;
+    }
+
+}
+@media only screen and (max-width:860px){
+    .container__navbar .my-name{
+        margin-left:20px;
+    }
+}
+@media only screen and (max-width:780px) {
+    .container__navbar .nav-items a {
+        padding: 0 10px;
+        font-size:12px;
+    }
+    
+
+}
+/* Change these to make hamburger menu */
+@media only screen and (max-width:640px) {
+    
+    .container__navbar .nav-items a{
+        display:none;
+    }
+    
+}

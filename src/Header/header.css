@@ -1,0 +1,15 @@
+/* background color #0E0B16 */
+/* FUSCHIA #A239CA */
+/* Jewel #4717F6 */
+/* Stark #E7DFDD */
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+.container{
+    background-color:rgb(8,8,8);
+    min-height: 100vh;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+

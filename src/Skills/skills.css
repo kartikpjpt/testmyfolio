@@ -1,0 +1,28 @@
+/* background color #0E0B16 */
+/* FUSCHIA #A239CA */
+/* Jewel #4717F6 */
+/* Stark #E7DFDD */
+/* Google colors
+#4285F4
+#DB4437
+#F4B400
+#0F9D58
+*/
+.skills-container{
+    background-color: #0E0B16;
+    height:auto;
+    min-height: 80vh;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px 25px;
+}
+.heading-skills{
+    color:#E7DFDD;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 45px;
+    
+
+    height: 50px;
+}
